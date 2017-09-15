@@ -1,0 +1,277 @@
+[ 2017-01-17T09:10:49+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.064620s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000501s ]
+
+[ 2017-01-17T09:10:49+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005677s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000324s ]
+
+[ 2017-01-17T09:10:49+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013889s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.006687s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000416s ]
+
+[ 2017-01-17T09:10:49+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003821s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005072s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000474s ]
+
+[ 2017-01-17T09:10:49+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003849s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000444s ]
+
+[ 2017-01-17T09:10:49+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.004114s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000383s ]
+
+[ 2017-01-17T09:10:49+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003671s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000328s ]
+
+[ 2017-01-17T09:19:06+08:00 ] ::1 /obj/index.php/Home/Index/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T09:19:06+08:00 ] ::1 /obj/index.php/Home/Index/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:19:06+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005196s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000572s ]
+
+[ 2017-01-17T09:19:07+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002509s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.006481s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000428s ]
+
+[ 2017-01-17T09:19:07+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003083s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003654s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000328s ]
+
+[ 2017-01-17T09:19:07+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003039s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.007102s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000353s ]
+
+[ 2017-01-17T09:19:07+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005451s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000563s ]
+
+[ 2017-01-17T09:19:07+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014631s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.004150s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000545s ]
+
+[ 2017-01-17T09:19:07+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.009032s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000399s ]
+
+[ 2017-01-17T09:19:07+08:00 ] ::1 /obj/index.php/Home/Index/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:19:22+08:00 ] ::1 /obj/index.php/Home/Cart/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T09:19:23+08:00 ] ::1 /obj/index.php/Home/Cart/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:19:27+08:00 ] ::1 /obj/index.php/Home/Order/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T09:19:27+08:00 ] ::1 /obj/index.php/Home/Order/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:19:27+08:00 ] ::1 /obj/index.php/Home/Order/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:19:41+08:00 ] ::1 /obj/index.php/Admin/Order/detail.html?id=3&uid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `mz_detail` [ RunTime:0.003481s ]
+SQL: SHOW COLUMNS FROM `mz_detail` [ RunTime:0.003748s ]
+SQL: SELECT adds.name,adds.address,adds.tel,de.id,de.goodsname,de.num,de.price,de.version FROM mz_detail de,mz_address adds WHERE ( adds.mask=1 AND de.orderid=3 AND adds.uid=2 )  [ RunTime:0.088889s ]
+
+[ 2017-01-17T09:39:16+08:00 ] ::1 /obj/index.php/Home/Order/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T09:39:16+08:00 ] ::1 /obj/index.php/Home/Order/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:39:16+08:00 ] ::1 /obj/index.php/Home/Order/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:39:22+08:00 ] ::1 /obj/index.php/Home/Details/nature.html?netn=net&netv=%E5%85%A8%E7%BD%91%E9%80%9A
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2017-01-17T09:39:22+08:00 ] ::1 /obj/index.php/Home/Details/nature.html?netn=color&netv=%E5%9C%9F%E8%B1%AA%E9%87%91
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2017-01-17T09:39:23+08:00 ] ::1 /obj/index.php/Home/Details/nature.html?netn=memory&netv=32G
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2017-01-17T09:39:25+08:00 ] ::1 /obj/index.php/Home/Details/st.html?aa=phone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+
+[ 2017-01-17T09:39:26+08:00 ] ::1 /obj/index.php/Home/Cart/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T09:39:26+08:00 ] ::1 /obj/index.php/Home/Cart/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:39:40+08:00 ] ::1 /obj/index.php/Home/Address/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T09:39:40+08:00 ] ::1 /obj/index.php/Home/Address/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:39:40+08:00 ] ::1 /obj/index.php/Home/Address/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:40:06+08:00 ] ::1 /obj/index.php/Home/Address/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T09:40:06+08:00 ] ::1 /obj/index.php/Home/Address/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:40:06+08:00 ] ::1 /obj/index.php/Home/Address/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:40:12+08:00 ] ::1 /obj/index.php/Home/Cart/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T09:40:12+08:00 ] ::1 /obj/index.php/Home/Cart/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:40:16+08:00 ] ::1 /obj/index.php/Home/Cartt/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T09:40:16+08:00 ] ::1 /obj/index.php/Home/Cartt/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:40:30+08:00 ] ::1 /obj/index.php/Home/Order/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T09:40:31+08:00 ] ::1 /obj/index.php/Home/Order/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:40:31+08:00 ] ::1 /obj/index.php/Home/Order/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T09:40:37+08:00 ] ::1 /obj/index.php/Admin/Order/detail.html?id=11&uid=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `mz_detail` [ RunTime:0.004214s ]
+SQL: SHOW COLUMNS FROM `mz_detail` [ RunTime:0.003998s ]
+SQL: SELECT adds.name,adds.address,adds.tel,de.id,de.goodsname,de.num,de.price,de.version FROM mz_detail de,mz_address adds WHERE ( adds.mask=1 AND de.orderid=11 AND adds.uid=9 )  [ RunTime:0.000566s ]
+
+[ 2017-01-17T11:19:11+08:00 ] ::1 /obj/index.php/Home/Order/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T11:19:11+08:00 ] ::1 /obj/index.php/Home/Order/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T11:19:11+08:00 ] ::1 /obj/index.php/Home/Order/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T11:19:24+08:00 ] ::1 /obj/index.php/Home/Order/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T11:19:24+08:00 ] ::1 /obj/index.php/Home/Order/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-01-17T11:19:39+08:00 ] ::1 /obj/index.php/Home/Comment/insert.html?count=2111&gid=3&uid=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `mz_config` [ RunTime:0.004590s ]
+SQL: SELECT * FROM `mz_config` LIMIT 1   [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `mz_cate` [ RunTime:0.005104s ]
+SQL: SHOW COLUMNS FROM `mz_goods` [ RunTime:0.004676s ]
+SQL: SELECT `id`,`name` FROM `mz_cate` WHERE ( path=concat(0,',',pid,',') ) LIMIT 5   [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `mz_goods` [ RunTime:0.005076s ]
+SQL: SELECT g.id gid,i.id iid,i.name iname,g.name gname,g.price gprice FROM mz_goods g,mz_image i WHERE ( g.cate_id=8 and i.is_face=1 and i.goods_id=g.id ) LIMIT 5   [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `mz_goods` [ RunTime:0.004372s ]
+SQL: SELECT g.id gid,i.id iid,i.name iname,g.name gname,g.price gprice FROM mz_goods g,mz_image i WHERE ( g.cate_id=9 and i.is_face=1 and i.goods_id=g.id ) LIMIT 5   [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `mz_goods` [ RunTime:0.007501s ]
+SQL: SELECT g.id gid,i.id iid,i.name iname,g.name gname,g.price gprice FROM mz_goods g,mz_image i WHERE ( g.cate_id=10 and i.is_face=1 and i.goods_id=g.id ) LIMIT 5   [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `mz_goods` [ RunTime:0.004004s ]
+SQL: SELECT g.id gid,i.id iid,i.name iname,g.name gname,g.price gprice FROM mz_goods g,mz_image i WHERE ( g.cate_id=11 and i.is_face=1 and i.goods_id=g.id ) LIMIT 5   [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `mz_goods` [ RunTime:0.003675s ]
+SQL: SELECT g.id gid,i.id iid,i.name iname,g.name gname,g.price gprice FROM mz_goods g,mz_image i WHERE ( g.cate_id=12 and i.is_face=1 and i.goods_id=g.id ) LIMIT 5   [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `mz_config` [ RunTime:0.003722s ]
+SQL: SELECT * FROM `mz_config` LIMIT 1   [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `mz_column` [ RunTime:0.004108s ]
+SQL: SELECT * FROM `mz_column`  [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `mz_comment` [ RunTime:0.003686s ]
+SQL: SELECT `id` FROM `mz_comment` WHERE ( `uid` = 9 ) AND ( `gid` = 3 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: INSERT INTO `mz_comment` (`count`,`gid`,`uid`,`time`) VALUES ('2111',3,9,1484623179) [ RunTime:0.037000s ]
+
+[ 2017-01-17T11:19:53+08:00 ] ::1 /obj/index.php/Admin/Order/detail.html?id=11&uid=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `mz_detail` [ RunTime:0.005930s ]
+SQL: SHOW COLUMNS FROM `mz_detail` [ RunTime:0.004229s ]
+SQL: SELECT adds.name,adds.address,adds.tel,de.id,de.goodsname,de.num,de.price,de.version FROM mz_detail de,mz_address adds WHERE ( adds.mask=1 AND de.orderid=11 AND adds.uid=9 )  [ RunTime:0.029166s ]
+
+[ 2017-01-17T11:20:23+08:00 ] ::1 /obj/index.php/Home/Center/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-01-17T11:20:23+08:00 ] ::1 /obj/index.php/Home/Center/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+

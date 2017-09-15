@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title></title>  
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/admin.css">
+    <script src="__PUBLIC__/Admin/js/jquery.js"></script>
+    <script src="__PUBLIC__/Admin/js/pintuer.js"></script>  
+</head>
+<body>
+<form method="post" action="">
+  <div class="panel admin-panel">
+    <div class="panel-head"><strong class="icon-reorder"> 用户详情列表</strong>&nbsp;&nbsp;<span><a href="{:U('Admin/User/back')}">返回</a></span></div>
+    <table class="table table-hover text-center">
+		<tr>
+			<th width="120">ID</th>
+			<th>用户名</th>       
+			<th>真实姓名</th>
+			<th>性别</th>
+			<th>联系电话</th>
+			<th>收货地址</th>
+		</tr> 
+		<notempty name="list">
+			<td>{$list.id}</td>
+			<td>{$uname.name}</td>
+			<td>{$list.truename}</td>
+			<td>{$list.sex}</td>
+			<td>{$list.tel}</td>
+			<foreach name="address" item="val">
+			<td>{$val.address}</td>
+			</foreach>
+		</tr>
+		<else/>
+		<tr>
+			<td colspan="6">查无数据</td>
+		</tr>
+		</notempty>
+    </table>
+  </div>
+</form>
+<script type="text/javascript">
+
+function del(id){
+	if(confirm("您确定要删除吗?")){
+		return true;
+	}else{
+		return false;
+	}
+}
+
+$("#checkall").click(function(){ 
+  $("input[name='id[]']").each(function(){
+	  if (this.checked) {
+		  this.checked = false;
+	  }
+	  else {
+		  this.checked = true;
+	  }
+  });
+})
+
+function DelSelect(){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){
+		var t=confirm("您确认要删除选中的内容吗？");
+		if (t==false) return false; 		
+	}
+	else{
+		alert("请选择您要删除的内容!");
+		return false;
+	}
+}
+
+</script>
+</body></html>
+

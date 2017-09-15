@@ -1,0 +1,314 @@
+<include file="Public/header"/>
+<link rel="stylesheet" href="__PUBLIC__/Home/css/main-610bbe3.css">
+<!--下面是模板标签，不可删除-->
+        <main class="wrapper page-detail">
+            <div class="container">
+                <section class="crumbs clearfix">
+                            <a data-mtype="store_de_mbx_1" href="{:U('Home/Index/index')}">首页</a>&nbsp;&gt;&nbsp;
+                            <a class="ellipsis crumbs-title">{$glist['name']}</a>
+                </section>
+                <form method="post" id="fm">
+                    <input type="hidden" name="iname" value="{$img[0]['name']}">
+                    <input type="hidden" name="gname" value="{$glist['name']}">
+                    <input type="hidden" name="price" value="{$glist['price']}">
+                    <input type="hidden" name="stoke" value="{$glist['stoke']}">
+                    <input type="hidden" name="gid" value="{$glist['id']}">
+                <section class="row">
+                    <div class="preview" id="preview">
+                        <div class="preview-booth">
+                            <a href="javascript:;" id="J_imgBooth">
+                                <img src="__PUBLIC__/Uploads/{$img[0]['name']}" alt="" height="375" width="375" id="big">
+                            </a>
+                        </div>
+                        <ul class="preview-thumb clearfix" id="J_previewThumb">
+                        <foreach name='img' item='val'> 
+                        <li class="small"><img src="__PUBLIC__/Uploads/{$val['name']}" height="75" width="75"></li>
+                        </foreach>
+                        </ul>
+                    </div>
+
+
+                    <div class="property" id="property">
+                            <div class="property-hd">
+                                <h1>{$glist['name']}</h1>
+
+                                <p class="mod-info active">{$glist['describe']}</p>
+                            </div>
+                            <div class="property-sell">
+                                <dl class="property-sell-price clearfix">
+                                    <dt class="vm-metatit" id="J_discountTag">价<span class="s-space"></span><span class="s-space"></span>格：
+                                    </dt>
+                                    <dd>
+                                        
+                                        <div class="mod-price">
+                                            <small>¥</small>
+                                            <span id="J_price" class="vm-money">{$glist['price']}</span>
+                                        </div>
+                                       
+                                    </dd>
+                                </dl>
+                                
+                            </div>
+                            <div class="property-set">
+                                    <dl class="property-set-sale" id="nature0">
+                                        <dt class="vm-metatit">商品颜色：</dt>
+                                        <span style="display: none">color</span>
+                                        <dd class="clearfix">
+											<foreach name="color" item="val">
+                                                <a class="vm-sale-img" style="cursor:pointer">
+                                                        <span>{$val}</span>
+                                                </a>
+                                            </foreach>                             
+                                        </dd>
+                                    </dl>
+                                    <dl class="property-set-sale" id="nature1">
+                                        <dt class="vm-metatit">网络类型：</dt>
+                                        <span style="display: none">net</span>
+                                        <dd class="clearfix" id="sta">
+                                        	<foreach name="net" item="val">
+                                                <a class="vm-sale-img" style="cursor:pointer">
+                                                		
+                                                        <span>{$val}</span>
+                                                </a>
+                                            </foreach>                             
+                                        </dd>
+                                    </dl>
+                                    <dl class="property-set-sale" id="nature2">
+                                        <dt class="vm-metatit">机身内存：</dt>
+                                        <span style="display: none">memory</span>
+                                        <dd class="clearfix">
+                                        	<foreach name="memory" item="val">
+                                                <a class="vm-sale-img" style="cursor:pointer">
+                                                		
+                                                        <span>{$val}</span>
+                                                </a>
+                                            </foreach>                             
+                                        </dd>
+                                    </dl>         
+                            </div>
+                            <div class="property-service">
+                                    <dl class="property-service-item clearfix">
+                                        <dt class="vm-metatit">支<span class="s-space"></span><span class="s-space"></span>持：
+                                        </dt>
+                                        <dd class="mod-bd" id="J_prodService">
+                                            <span><i class="icon icon-service"></i>花呗分期</span>
+                                            <span><a href="http://store.meizu.com/marrive/summary.html" target="_blank"><i class="icon icon-service"></i>百城速达</a></span>
+                                                <span><i class="icon icon-service"></i>顺丰包邮</span>
+                                                <span><i class="icon icon-service"></i>7天无理由退货</span>
+                                        </dd>
+                                    </dl>
+                                    
+                                <dl class="property-service-provider clearfix">
+                                    <dt class="vm-metatit">服<span class="s-space"></span><span class="s-space"></span>务：
+                                    </dt>
+                                    <dd class="clearfix">
+                                        <span id="J_installmentInfo"></span>
+                                            本商品由 魅族 负责发货并提供售后服务
+                                    </dd>
+                                </dl>
+                                <dl class="property-service-provider clearfix">
+                                    <dt class="vm-metatit">库<span class="s-space"></span><span class="s-space"></span>存：
+                                    </dt>
+                                    <dd class="clearfix">
+                                        <span id="J_installmentInfo" class="stoke">{$glist['stoke']}</span>
+                                            
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="property-buy">
+                                <p class="vm-message" id="J_message">总价：￥
+                                    <input style="border:0px;color:red;" type="text" name="price" id="total" value="{$glist['price']}" readonly="true">
+                                </p>
+                                <dl class="property-buy-quantity">
+                                    <dt class="vm-metatit">数<span class="s-space"></span><span class="s-space"></span>量：
+                                    </dt>
+                                    <dd class="clearfix">
+                                        <div class="mod-control">
+                                            <a title="减少" href="javascript:;" class="vm-minus" id="jian" onclick="jian()">-</a>
+                                            <input value="1" id="J_quantity" data-max="1" type="text" name="num" readonly>
+                                            <a title="增加" href="javascript:;" class="vm-plus" id="jia" onclick="jia()">+</a>
+                                        </div>
+                                       
+                                        <div>
+                                           <!-- <a id="J_btnBuy" class="btn btn-primary btn-lg " data-mtype="store_de_buy" href="{:U('Home/Now/index')}"><i></i>立即购买</a>-->
+                                            <input type="button" id="J_btnBuy addcar" class="btn btn-primary btn-lg " data-mtype="store_de_buy" onclick="addcar()" value="加入购物车" href="{:U('Home/Cart/index')}"/>
+                                            <input type="button" id="J_btnBuy nowbuy" class="btn btn-primary btn-lg " data-mtype="store_de_buy" onclick="nowbuy()" value="立即购买"/>
+											<!--<a id="J_btnBuy" class="btn btn-primary btn-lg " data-mtype="store_de_buy" href="{:U('Home/Cart/index')}"><i></i>加入购物车</a>-->
+                                            <a class="vm-favorite" id="abc" href="javascript:;" onclick="collect({$glist['id']})"><i class="icon icon-favorite"></i>收藏</a>
+                                            
+                                            
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>                    
+                    </div>
+                </section>
+                </form>
+            </div>
+            
+             <section class="row detail" id="detail">
+                <div style="height:62px;">
+                    <div class="detail-tab" id="detailTabFixed">
+                        <div class="fixed-container">
+                            <ul class="clearfix" style="display: block;">
+                                <li class="current">
+                                    <a data-mtype="store_de_xq_1" href="javascript:;" onclick="hid('introduce','pp')" id="pp">商品详情</a>
+                                </li>
+                                <li class="">
+                                    <a data-mtype="store_de_xq_3" href="javascript:;" onclick="hid('question','qq')" id="qq">评论({$ping})</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="detail-content container">
+                    <div class="introduce" id="introduce" style="display:block;">
+                    	<foreach name="infolist" item="ival">
+                            <img class="lazy" data-original="" alt="" src="__PUBLIC__/Uploads/{$ival.name}" style="display: inline;" width="1240">
+                        </foreach> 
+                    </div>
+                    <div class="question current" id="question" style="display:none;">
+                        <div class="question-list">
+                            <h2>热门评论</h2>
+                            	<foreach name="comlist" item="val">
+	                                <dl class="mod-item">
+	                                	<dt class="vm-question">
+	                                		用户:&nbsp;&nbsp;&nbsp;&nbsp;{$val['name']}
+	                                	</dt>
+	                                    <dt class="vm-answer">
+	                                    	评论内容：
+	                                    	{$val['count']}
+	                                    </dt>
+	                                    <dt class="vm-answer">
+	                                    	商家回复：
+	                                    	{$val['recount']}
+	                                    </dt>
+	                                    <dd class="vm-answer">
+	                                    	评论时间：
+	                                    	{$val['time']}
+	                                    </dd>
+	                                </dl>
+                                </foreach>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+<script type="text/javascript">
+	//商品属性显示隐藏
+	var nat=$(".vm-sale-img");
+	nat.each(function(i){
+		if($(this).children().html()==''){
+			$("#nature1").attr('style','display:none');
+			$("#nature2").attr('style','display:none');
+		}
+	});
+
+	//判断选择哪个属性
+	nat.click(function(){
+		$(this).addClass('selected').siblings().removeClass('selected');
+		netn=$(this).parent().prev().html();
+		netv=$(this).children().html();
+		$.get("{:U('Details/nature')}",{'netn':netn,'netv':netv},function(result){
+
+		})
+	})
+	//评论和图片切换
+	function hid(a,b){
+    	$("#"+b).parent().addClass('current').siblings().removeClass('current');
+    	$("#"+a).attr("style","display:block").siblings().attr("style","display:none");
+    }
+    //  -按钮
+    function jian(){
+    	//alert(1);
+       	var n=$("#J_quantity");
+       	var t=$("#total");
+       	//alert(n.val());
+       	if(n.val()>1){
+       		n.val(parseInt(n.val())-1);
+       		t.val((parseInt(n.val())*{$glist['price']}).toFixed(2));
+       		$("#jia").removeClass('disabled');
+       	}else{
+       		$("#jian").css('disabled','true').addClass('disabled');
+       		//$("#jia").removeClass('disabled');
+       	}    
+    }
+
+    //  +按钮
+    function jia(){
+        var n=$("#J_quantity");
+        var t=$("#total");
+        if(n.val()<5&&n.val()<{$glist['stoke']}){
+        	n.val(parseInt(n.val())+1);
+        	t.val((parseInt(n.val())*{$glist['price']}).toFixed(2));
+        	$("#jian").removeClass('disabled');
+        }else{
+        	$("#jia").css('disabled','true').addClass('disabled');
+       		//$("#jian").removeClass('disabled');
+        }         
+    }
+
+    //大图切换
+    $(".small").click(function(){
+    	$(this).addClass('current').siblings().removeClass('current');
+    	$("#big").attr('src',$(this).children().attr('src'));
+    });
+    //alert($(".stoke").html());
+    if($(".stoke").html()==0){
+    	$("input[value='加入购物车']").attr('disabled','disabled');
+    	$("input[value='立即购买']").attr('disabled','disabled');
+    }else{
+    	$("input[value='加入购物车']").attr('disabled',false);
+    	$("input[value='立即购买']").attr('disabled',false);
+    }
+</script>
+<script type="text/javascript">
+	function addcar(){
+		if($("#sta").children().children().html()==''){
+			$.get("{:U('Home/Details/st')}",{'aa':'other'},function(result){
+				if(result){
+					$('#fm').attr('action','{:U("Home/Cartt/index")}').submit();
+				}else{
+					alert('请选择商品属性')
+				}
+			},'json');
+		}else{
+			$.get("{:U('Home/Details/st')}",{'aa':'phone'},function(result){
+				if(result){
+					$('#fm').attr('action','{:U("Home/Cartt/index")}').submit();
+				}else{
+					alert('请选择商品属性')
+				}
+			},'json');
+		};	
+	}
+	function nowbuy(){
+		if($("#sta").children().children().html()==''){
+			$.get("{:U('Home/Details/st')}",{'aa':'other'},function(result){
+				if(result){
+					$('#fm').attr('action','{:U("Home/Confimorder/index")}').submit();
+				}else{
+					alert('请选择商品属性')
+				}
+			},'json');
+		}else{
+			$.get("{:U('Home/Details/st')}",{'aa':'phone'},function(result){
+				if(result){
+					$('#fm').attr('action','{:U("Home/Confimorder/index")}').submit();
+				}else{
+					alert('请选择商品属性')
+				}
+			},'json');
+		};	
+	}
+</script>
+<script>
+	function collect(a){
+    $.get("{:U('Home/Collect/add')}",{'id':a},function(result){
+    alert(result);
+    //document.getElementById('abc').innerHTML=result;
+},'json');
+}
+</script>
+ <include file="Public/footer"/>

@@ -1,0 +1,329 @@
+[ 2017-02-09T09:03:37+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.037208s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000630s ]
+
+[ 2017-02-09T09:03:37+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003373s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000298s ]
+
+[ 2017-02-09T09:03:37+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003590s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000349s ]
+
+[ 2017-02-09T09:03:37+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003879s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000374s ]
+
+[ 2017-02-09T09:03:37+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.006364s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000619s ]
+
+[ 2017-02-09T09:03:37+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005560s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000654s ]
+
+[ 2017-02-09T09:03:37+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.006526s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000567s ]
+
+[ 2017-02-09T13:44:57+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.052704s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000436s ]
+
+[ 2017-02-09T13:44:57+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005542s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000422s ]
+
+[ 2017-02-09T13:44:57+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003785s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000403s ]
+
+[ 2017-02-09T13:44:57+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005516s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003608s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000334s ]
+
+[ 2017-02-09T13:44:57+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003933s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000356s ]
+
+[ 2017-02-09T13:44:57+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005450s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000419s ]
+
+[ 2017-02-09T13:44:57+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005313s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000455s ]
+
+[ 2017-02-09T13:48:36+08:00 ] ::1 /obj/index.php/Admin/Order/detail.html?id=11&uid=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `mz_detail` [ RunTime:0.163135s ]
+SQL: SHOW COLUMNS FROM `mz_detail` [ RunTime:0.005144s ]
+SQL: SELECT adds.name,adds.address,adds.tel,de.id,de.goodsname,de.num,de.price,de.version FROM mz_detail de,mz_address adds WHERE ( adds.mask=1 AND de.orderid=11 AND adds.uid=9 )  [ RunTime:0.052567s ]
+
+[ 2017-02-09T13:51:11+08:00 ] ::1 /obj/index.php/Home/Index/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-02-09T13:51:11+08:00 ] ::1 /obj/index.php/Home/Index/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-02-09T13:51:11+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.017707s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000455s ]
+
+[ 2017-02-09T13:51:11+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005239s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000558s ]
+
+[ 2017-02-09T13:51:11+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002635s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005062s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000544s ]
+
+[ 2017-02-09T13:51:11+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003391s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000312s ]
+
+[ 2017-02-09T13:51:11+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003387s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000310s ]
+
+[ 2017-02-09T13:51:11+08:00 ] ::1 /obj/index.php/Home/Index/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-02-09T13:51:11+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005703s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000506s ]
+
+[ 2017-02-09T13:51:11+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002200s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005393s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000559s ]
+
+[ 2017-02-09T13:57:15+08:00 ] ::1 /obj/index.php/Home/Index/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-02-09T13:57:15+08:00 ] ::1 /obj/index.php/Home/Index/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-02-09T13:57:15+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.006228s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001618s ]
+
+[ 2017-02-09T13:57:15+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.004521s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000367s ]
+
+[ 2017-02-09T13:57:16+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003738s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000284s ]
+
+[ 2017-02-09T13:57:16+08:00 ] ::1 /obj/index.php/Home/Index/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-02-09T13:57:16+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005090s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000622s ]
+
+[ 2017-02-09T13:57:16+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005795s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.002244s ]
+
+[ 2017-02-09T13:57:16+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.004409s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000387s ]
+
+[ 2017-02-09T13:57:16+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003804s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000377s ]
+
+[ 2017-02-09T13:59:55+08:00 ] ::1 /obj/index.php/Home/Index/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83-%E6%B6%88%E6%81%AF%E6%8F%90%E9%A3%8E%E6%A0%BC%E5%8C%96%E9%86%92_files/v.htm
+ERR: 非法操作:会员中心-消息提风格化醒_files
+
+[ 2017-02-09T13:59:55+08:00 ] ::1 /obj/index.php/Home/Index/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-02-09T13:59:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.004980s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000567s ]
+
+[ 2017-02-09T13:59:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.008851s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000422s ]
+
+[ 2017-02-09T13:59:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.006204s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000454s ]
+
+[ 2017-02-09T13:59:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003759s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000304s ]
+
+[ 2017-02-09T13:59:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005602s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000342s ]
+
+[ 2017-02-09T13:59:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.004461s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000337s ]
+
+[ 2017-02-09T13:59:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003425s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000344s ]
+
+[ 2017-02-09T13:59:55+08:00 ] ::1 /obj/index.php/Home/Index/%E9%AD%85%E6%97%8F%E5%AE%98%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%95%86%E5%BA%97-%E6%8F%90%E4%BE%9B%E9%AD%85%E6%97%8F%20PRO%205%E3%80%81%E9%AD%85%E6%97%8FMX%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dnote%E7%B3%BB%E5%88%97%E3%80%81%E9%AD%85%E8%93%9Dmetal%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E7%9A%84%E9%A2%84%E7%BA%A6%E5%92%8C%E8%B4%AD%E4%B9%B0_files/hm.htm
+ERR: 非法操作:魅族官网在线商店-提供魅族 PRO 5、魅族MX系列、魅蓝note系列、魅蓝metal系列产品的预约和购买_files
+
+[ 2017-02-09T14:17:45+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.006266s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000437s ]
+
+[ 2017-02-09T14:17:45+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.006766s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000843s ]
+
+[ 2017-02-09T14:17:45+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005455s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.001092s ]
+
+[ 2017-02-09T14:17:45+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020443s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003867s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000622s ]
+
+[ 2017-02-09T14:17:45+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003789s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005929s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000586s ]
+
+[ 2017-02-09T14:17:45+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002195s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005411s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000489s ]
+
+[ 2017-02-09T14:17:45+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.005841s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000795s ]
+

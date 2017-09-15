@@ -1,0 +1,49 @@
+[ 2017-01-21T09:37:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.109704s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000452s ]
+
+[ 2017-01-21T09:37:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003354s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000362s ]
+
+[ 2017-01-21T09:37:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003266s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000348s ]
+
+[ 2017-01-21T09:37:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003326s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000373s ]
+
+[ 2017-01-21T09:37:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030913s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003077s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000317s ]
+
+[ 2017-01-21T09:37:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003262s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000330s ]
+
+[ 2017-01-21T09:37:55+08:00 ] ::1 /obj/index.php/Home/Index/adv.html?i=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `mz_imgleft` [ RunTime:0.003284s ]
+SQL: SELECT * FROM `mz_imgleft` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000309s ]
+

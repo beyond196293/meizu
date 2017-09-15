@@ -1,0 +1,33 @@
+<include file="Public/header"/>
+<div class="store-wrap">
+    <div class="crumbs">
+        <a href="http://store.meizu.com/">首页&gt;</a>
+        <a href="http://store.meizu.com/">服务中心&gt;</a>
+        <a href="http://me.meizu.com/member/message/index" class="active">公告</a>
+    </div>
+    <div class="main clearfix">
+   <include file="Public/nav"/>
+        <div class="right-content f-fr">
+            <div class="info-main">
+                <div class="type-tab-btn">
+                    <a href="javascript:;" class="active" data-type="1">商城公告<span class="amount _actAmount"></span></a><i class="line">|</i>
+                </div>
+                <div id="tableList" class="type-contain clearfix ui-load-container"><div class="ui-load-content"><div class="info-list">
+    <foreach name="noticelist" item="val">
+    <ul id="check-items">
+        <li class="unread clearfix">
+        <span class="timeFull">{$val.time}</span>
+        <span class="splitTime f-fl">{$val.date}</span>
+            <a class="_unread f-fl" href="#" target="_blank">
+                <span class="infoText">{$val.content}</span>
+            </a>
+        </li>
+        </ul>
+        </foreach>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<include file="Public/footer"/>

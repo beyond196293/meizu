@@ -1,0 +1,24 @@
+[ 2017-06-18T14:31:12+08:00 ] ::1 /mz_shop/index.php?m=Home&c=user&a=login
+ERR: 无法加载控制器:User
+
+[ 2017-06-18T17:32:24+08:00 ] ::1 /mz_shop/index.php/Admin/Login/createCode
+ERR: 非法操作:createCode
+
+[ 2017-06-18T17:32:40+08:00 ] ::1 /mz_shop/index.php/Admin/login/cklogin
+ERR: 非法操作:cklogin
+
+[ 2017-06-18T17:32:42+08:00 ] ::1 /mz_shop/index.php/Admin/Login/createCode
+ERR: 非法操作:createCode
+
+[ 2017-06-18T17:32:55+08:00 ] ::1 /mz_shop/index.php/Admin/login/cklogin
+ERR: 非法操作:cklogin
+
+[ 2017-06-18T17:32:57+08:00 ] ::1 /mz_shop/index.php/Admin/Login/createCode
+ERR: 非法操作:createCode
+
+[ 2017-06-18T17:33:02+08:00 ] ::1 /mz_shop/index.php/Admin/login/cklogin
+ERR: 非法操作:cklogin
+
+[ 2017-06-18T17:33:04+08:00 ] ::1 /mz_shop/index.php/Admin/Login/createCode
+ERR: 非法操作:createCode
+

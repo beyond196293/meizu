@@ -1,0 +1,132 @@
+<include file="Public/header"/>
+<link rel="stylesheet" href="__PUBLIC__/Home/css/main-37d634f.css">
+<main class="wrapper" id="main">
+    <div class="container">
+        <section class="crumbs clearfix">
+            <a data-mtype="store_list_mbx_1" href="">首页</a> &nbsp;&gt;&nbsp;
+        <span class="crumbs-level" id="crumbsLevel"><a href="#" data-mtype="store_list_mbx_2" data-cateid="73">全部商品</a>&nbsp;&gt;&nbsp;{$name}</span>
+        </section>
+
+        <section class="selector" id="selector">
+            <!--  分类部分 start -->
+                <div class="sl-category" id="slCategory">
+                </div>
+            <div class="sl-prop" id="slProp">
+                        <div class="sl-line-wrap">
+                            <div class="mod-key"><span>分类：</span></div>
+                            <div class="mod-value">
+                                <div class="mod-value-list">
+                                    <ul>
+                                           <li class="vm-all">
+                                                <a title="全部" href="{:U('Home/Catelist/index',array('name'=>'全部'))}">全部</a>
+                                           </li>
+                                            <foreach name="cateone" item="val">
+                                                <li class="">
+                                                <a href="{:U('Home/Catelist/index',array('name'=>$val['name']))}">{$val['name']}</a>
+                                                </li>
+                                            </foreach>
+                                              
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sl-line-wrap">
+                            <div class="mod-key"><span>系列：</span></div>
+                            <div class="mod-value">
+                                <div class="mod-value-list">
+                                    <ul>
+                                            <li class="vm-all">
+                                                <a title="全部" href="{:U('Home/Catelist/index',array('name'=>'全部'))}">全部</a>
+                                            </li>
+                                            <foreach name="catetwo" item="val">
+                                                <li class="">
+                                                    <a href="{:U('Home/Catelist/index',array('name'=>$val['name']))}">{$val['name']}</a>
+                                                </li>
+                                            </foreach>         
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </section>
+
+    <section style="display: block;" class="filter clearfix" id="filter">
+        <div class="filter-order" id="J_filterOrder">
+        </div>
+        <div class="filter-condition" id="J_filterCondition">
+            <label class="bs-checkbox" data-mtype="store_list_sx_xz">
+            </label>
+        </div>
+    </section>
+    <section style="display: block;" class="goods-list" id="goodsList">
+        <ul class="goods-list-wrap clearfix" id="goodsListWrap">
+        <foreach name="glist" item="val">
+            <li class="gl-item">
+                <dl class="gl-item-wrap">
+                    <dd class="mod-pic">
+                    <a data-mtype="store_list_kw_1" href="{:U('Details/index',array('id'=>$val['id']))}" title="魅蓝 E">
+                            <img src="__PUBLIC__/Uploads/{$val['iname']}" height="220" width="220">
+                    </a>
+                    </dd>
+                    <dd class="mod-name">
+                        <a data-mtype="store_list_kw_1" href="{:U('Details/index',array('id'=>$val['id']))}">
+                        {$val['describe']}
+                        </a>
+                    </dd>
+                    <dd class="mod-price">
+                    <em>￥</em><i>{$val['price']}</i>
+                    </dd>
+                </dl>
+            </li>
+        </foreach>    
+        </ul>
+    </section>
+    <section class="empty clearfix" id="empty" style="display: none;">
+        <div class="empty-bd">
+            <div class="empty-bd-pic"></div>
+            <div class="empty-bd-info">
+                <h4 class="yahei">抱歉没有找到相关商品</h4>
+                <p>建议您：<br>
+                    1.适当减少筛选条件<br>
+                    2.尝试其他关键字
+                </p>
+            </div>
+        </div>
+    </section>
+    <section style="display: none;" class="pages" id="pages"><div class="ui-paginate"><span class="p-prev disabled p-elem"></span><span class="current p-elem">1</span><span class="p-next disabled p-elem"></span></div></section>
+    <section class="recommend" id="recommend">
+        <div class="recommend-hd">
+            <h2 class="mod-title">为您推荐</h2>
+            <div class="mod-control" id="recommendDirectionNav">
+                <a tabindex="-1" class="vm-prev flex-prev flex-disabled" data-mtype="store_list_tj_a" href="#" id="J_recommendPrev">
+                    <i> </i>
+                </a>
+                <a class="vm-next flex-next" data-mtype="store_list_tj_b" href="#" id="J_recommendNext">
+                    <i></i>
+                </a>
+            </div>
+        </div>
+        <div class="recommend-slider" id="J_recommendSlider">
+            
+        <div style="overflow: hidden; position: relative;" class="flex-viewport"><ul style="width: 2000%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);" class="recommend-slider-wrap">
+                    <foreach name="hot" item="val">
+                        <li style="width: 245.6px; margin-right: 5px; float: left; display: block;" class="rs-item">
+                            <a class="rs-item-wrap" data-mtype="sotre_list_tj_1" href="{:U('Details/index',array('id'=>$val['id']))}" target="_blank">
+                                <div class="mod-pic">
+                                    <img draggable="false" src="__PUBLIC__/Uploads/{$val['iname']}" height="180" width="180">
+                                </div>
+                                <div class="mod-desc">
+                                    <h4 class="vm-title">{$val['gname']}</h4>
+                                    <h6 class="vm-subtitle">{$val['describe']}</h6>
+                                    <p class="vm-price">
+                                        ¥<span>{$val['price']}</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </foreach>    
+            </ul></div></div>
+    </section>
+    </div>
+</main>
+<include file="Public/footer"/>

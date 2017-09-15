@@ -1,0 +1,160 @@
+<include file="Public/header"/>
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/common.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/index.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/appraisal.css">
+    
+    <!-- content -->
+
+    <div class="main">
+        <div class="mzcontainer">
+            <div class="mcycle-header">
+                <div class="mcycle-slider">
+                    <img src="__PUBLIC__/Home/images/Cix_s1g9VqqAbfOTAAW4cEIiKHk112.png" alt="">
+                </div>
+                <div class="mcycle-bottom-bar">
+                    <ul class="mcycle-bottom-list clearfix">
+                        <li class="mcycle-bottom-select"><i class="mcycle-font"></i><span class="front-color">全国包邮</span></li>
+                        <li class="mcycle-bottom-select"><i class="mcycle-font"></i><span class="front-color">专业检测</span></li>
+                        <li class="mcycle-bottom-select"><i class="mcycle-font"></i><span class="front-color">隐私保护</span></li>
+                        <li class="mcycle-bottom-select"><i class="mcycle-font"></i><span class="front-color">魅族额外补贴</span></li>
+                        <li class="mcycle-bottom-select"><i class="mcycle-font"></i><span class="front-color">24h返券</span></li>
+                    </ul>
+                </div>
+                <div class="mcycle-fixed-box">
+                    <ul class="mcycle-flow-list clearfix">
+                        <li class="mcycle-flow-step">
+                            <div class="mcycle-flow-cycle">1</div>
+                            <p class="front-color">在线估值</p>
+                        </li>
+                        <li class="mcycle-flow-to">
+                            <i class="mcycle-font"></i>
+                            <i class="mcycle-font"></i>
+                            <i class="mcycle-font"></i>
+                        </li>
+                        <li class="mcycle-flow-step">
+                            <div class="mcycle-flow-cycle">2</div>
+                            <p class="front-color">免费寄件</p>
+                        </li>
+                        <li class="mcycle-flow-to">
+                            <i class="mcycle-font"></i>
+                            <i class="mcycle-font"></i>
+                            <i class="mcycle-font"></i>
+                        </li>
+                        <li class="mcycle-flow-step">
+                            <div class="mcycle-flow-cycle">3</div>
+                            <p class="front-color">专业检测</p>
+                        </li>
+                        <li class="mcycle-flow-to">
+                            <i class="mcycle-font"></i>
+                            <i class="mcycle-font"></i>
+                            <i class="mcycle-font"></i>
+                        </li>
+                        <li class="mcycle-flow-step">
+                            <div class="mcycle-flow-cycle">4</div>
+                            <p class="front-color">发放回购券</p>
+                        </li>
+                    </ul>
+                    <div class="mcycle-search-box">
+                        <input class="mcycle-search-input" placeholder="请输入需回收的机型型号" maxlength="50" type="text">
+                        <button class="mcycle-search-btn">搜索</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mcycle-type clearfix" style="display: none;">
+                <div class="mcycle-type-title">回收种类:</div>
+                <ul class="mcycle-type-list clearfix" id="mcycleTypeList">
+                    <li class="mcycle-type-select">
+                        <div class="mcycle-type-icon"></div>
+                        <p>手机</p>
+                    </li>
+                    <li class="mcycle-type-select">
+                        <div class="mcycle-type-icon"></div>
+                        <p>苹果播放器</p>
+                    </li>
+                    <li class="mcycle-type-select">
+                        <div class="mcycle-type-icon"></div>
+                        <p>平板电脑</p>
+                    </li>
+                    <li class="mcycle-type-select">
+                        <div class="mcycle-type-icon"></div>
+                        <p>笔记本</p>
+                    </li>
+                    <li class="mcycle-type-select">
+                        <div class="mcycle-type-icon"></div>
+                        <p>数码相机</p>
+                    </li>
+                    <li class="mcycle-type-select">
+                        <div class="mcycle-type-icon"></div>
+                        <p>电视机</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="mcycle-product" id="mcycleProduct">
+                <div class="mcycle-product-brand clearfix">
+                    <div class="mcycle-product-brand-title">品牌:</div>
+                    <ul class="mcycle-product-brand-list clearfix" id="mcycleProductBrandList">
+                            <li class="mcycle-product-brand-name active">
+                                <a class="mcycle-product-brand-select" href="javascript:;" data-bid="111">魅族</a>
+                            </li>
+                            <li class="mcycle-product-brand-name">
+                                <a class="mcycle-product-brand-select" href="javascript:;" data-bid="134">苹果</a>
+                            </li>
+                    </ul>
+                </div>
+                <ul class="mcycle-product-list clearfix" id="mcycleProductList">
+                    <foreach name="info" item="val" key="key">
+                        <li class="mcycle-product-select">
+                            <a class="mcycle-product-link" href="{:U('assecc?id='.$val['id'])}">
+                                <span class="mcycle-product-select-img">
+                                    <img src="__PUBLIC__/Uploads/{$val.savepath}" alt="{$val.name}">
+                                </span>
+                                <p class="mcycle-product-select-name">{$val.name}</p>
+                                <span class="mcycle-product-select-btn">去评估</span>
+                            </a>
+                        </li>
+                        </foreach>
+                </ul>
+                <div class="mcycle-product-page">
+                    <div id="page" class="mz-page-box" style="display: block;"><ul class="mz-page-list"><li class="prev disabled"><div class="triangle"></div></li><li class="page active" data-page="1"></li><li class="page " data-page="2"></li><li class="next "><div class="triangle"></div></li></ul></div>
+                </div>
+            </div>
+            <div class="mcycle-qa">
+                <div class="mcycle-qa-title">常见问题解答</div>
+                        <ul class="mcycle-qa-content">
+                            <li class="mcycle-qa-question">活动规则</li>
+                                <li class="mcycle-qa-answer">1、活动时间参与以旧换新并返券成功的用户，回购券满 300 送 30 元话费；<br></li>
+                                <li class="mcycle-qa-answer">2、活动时间参与以旧换新并返券成功的用户，回购订单尾号踩中 6 既有机会获得魅族新品 M 码一个；</li>
+                                <li class="mcycle-qa-answer">3、话费将在活动结束后 10 个工作日内直接充值到订单填写联系人信息时手机号，请确保填写手机号码正确；</li>
+                                <li class="mcycle-qa-answer">4、魅族新品 M 码机型可选魅蓝 X 或魅蓝 Note 新品 ，并将于活动结束后 10 个工作日内发放，数量有限，先到先得；</li>
+                                <li class="mcycle-qa-answer">5、同一用户仅能获奖一次。</li>
+                        </ul>
+                        <ul class="mcycle-qa-content">
+                            <li class="mcycle-qa-question">如何参与mCycle以旧换新？</li>
+                                <li class="mcycle-qa-answer">1、查找所需回收的机型，根据机器的实际情况进行评估；
+</li>
+                                <li class="mcycle-qa-answer">2、填写您的联系信息，提交订单，寄送机器，建议优先使用顺丰快递（可到付）；
+</li>
+                                <li class="mcycle-qa-answer">3、回收企业收到机器后24小时内完成检测，我们将以短信形式通知您检测结果确认返券；
+</li>
+                                <li class="mcycle-qa-answer">4、检测结果出现异常，回收企业客服会与您电话沟通确认，达成一致后将等额的回购券(含魅族补贴)发放到您的魅族账户。</li>
+                        </ul>
+                        <ul class="mcycle-qa-content">
+                            <li class="mcycle-qa-question">魅族回购券的使用规则是什么？</li>
+                                <li class="mcycle-qa-answer">1、机器成功回收后，由魅族商城发放等额魅族回购券（金额为回收价+魅族补贴），回购券1年内使用有效；
+</li>
+                                <li class="mcycle-qa-answer">2、魅族回购券可用于在魅族商城购买商品（手机、手机配件及智能硬件）抵扣现金；
+</li>
+                                <li class="mcycle-qa-answer">3、购买魅族官网商品符合退货要求，涉及现金部分将原路返还至对应付款账户，&nbsp;魅族回收券则将返至魅族账户;
+</li>
+                                <li class="mcycle-qa-answer">4、魅族回购券获得后就不可以退换和提现。</li>
+                        </ul>
+                        <ul class="mcycle-qa-content">
+                            <li class="mcycle-qa-question">魅族补贴的补贴标准是多少？</li>
+                                <li class="mcycle-qa-answer">根据机器的实际回收价格给予不同价位档的补贴，在机器实际回收价基础上，魅族将给予最高150元的额外补贴。</li>
+                        </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- end content -->
+<include file="Public/footer"/>

@@ -1,0 +1,271 @@
+<include file="Public/header"/>
+<script charset="utf-8" src="__PUBLIC__/Home/js/v.js"></script>
+<script src="__PUBLIC__/Home/js/hm.js"></script>
+<script src="__PUBLIC__/Home/js/flow.js"></script>
+<script src="__PUBLIC__/Home/js/analytics-min.js"></script>
+<link rel="stylesheet" href="__PUBLIC__/Home/css/layout-ea436a570a.css">
+<link href="__PUBLIC__/Home/css/add-b464169420.css" rel="stylesheet" charset="UTF-8">
+        <div class="order">
+        <div class="mzcontainer">
+            <div class="order-header">
+                <div class="order-header-title">
+                    确认订单
+                </div>
+                <ul class="order-header-bread">
+                    <li class="order-header-bread-block active">购物车</li>
+                    <li class="order-header-bread-block active">确认订单</li>
+                    <li class="order-header-bread-block">在线支付</li>
+                    <li class="order-header-bread-block">完成</li>
+                </ul>
+            </div>
+
+            <div class="order-address" id="addressModule">
+                <div class="order-address-title">
+                    收货人信息
+                    <div class="order-address-title-tips" id="orderAddressHasOldTips">
+                        <i class="order-address-tips-icon"></i>因配送地址库升级，部分地址需升级后方可使用！
+                    </div>
+                </div>
+                <ul class="order-address-list clearfix" id="addressList" style="height: 174px;">
+					<notempty name="info">
+					<li class="order-address-checkbox checked">
+						<div class="order-address-checkbox-top">
+							<div class="order-address-checkbox-name">{$info.name}</div>
+							<div class="order-address-checkbox-phone">{$info.tel}</div>
+						</div>
+						<div class="order-address-checkbox-content">{$info.address}</div>
+						<div class="order-address-checkbox-checked">
+							<div class="order-address-checkbox-tick"></div>
+						</div>
+						<div class="order-address-checkbox-ctrl">
+							<div class="order-address-checkbox-delete"></div>
+						</div>
+					</li>
+					</notempty>
+					<li class="order-address-checkbox add">
+						<div class="order-address-add-icon"></div>
+						<a href="{:U('Home/Address/index')}"><div class="order-address-add-text">添加新地址</div></a>
+					</li>
+				</ul>
+                <div class="order-address-bottom">
+                    <div class="order-address-more" id="orderAddressMore">
+	                      <p class="order-address-more-text">点击显示更多地址</p>
+	     				  <i class="order-address-triangle"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mzcontainer order-product">
+                <div class="order-product-title">确认订单信息</div>
+                <div class="order-product-list" id="orderProductList">
+				<table cellpadding="0" cellspacing="0">
+					<thead>
+						<tr>
+							<th class="order-product-table-name">
+								<div class="order-product-supplier">供应商：<span class="order-product-supplier-name">魅族</span>
+									<div class="order-product-supplier-tips">由“魅族”负责发货，并提供售后服务</div>
+								</div>
+							</th>
+							<th class="order-product-table-price">单价</th>
+							<th class="order-product-table-num">数量</th>
+							<th class="order-product-table-total">小计</th>
+							<th class="order-product-table-express">配送方式</th>
+						</tr>
+					</thead>
+					<foreach name="list" item="asd" key="key">
+					<tbody>
+						<tr>
+							<td class="order-product-table-name">
+								<img class="order-product-image" src="__PUBLIC__/Uploads/{$asd.iname}">
+								<div class="order-product-name">
+									<a target="_blank" class="order-product-link" id="name" href="http://detail.meizu.com/item/meilan_e1.html">{$asd.gname}<br>{$asd.net}&nbsp;{$asd.colors}&nbsp;{$asd.memory}</a>
+								</div>
+							</td>
+							<td class="order-product-table-price"><p></p><span class="order-product-price">{$asd.price}</span></td>
+							<td class="order-product-table-num" id="num">{$asd.nnum}</td>
+							<td class="order-product-table-total"><p class="order-product-price red">{$asd.tnum}</p></td>
+							<td class="order-product-table-express" rowspan="1">
+								<p>快递配送：运费<span class="order-product-price red">0.00</span></p>
+								<div class="order-product-arrival"></div>
+							</td>
+						</tr>
+					</tbody>
+					</foreach>
+					<tfoot>
+						<tr>
+							<td colspan="5">
+								<div class="order-product-info">
+									<div class="order-product-invoice clearfix">
+										<div class="order-product-invoice-type">发票类型：电子发票
+											<div class="order-product-invoice-icon"></div>
+										</div>
+										<div class="order-product-invoice-title">发票抬头：默认为收货人姓名</div>
+									</div>
+									<div class="order-product-remark">
+										<span class="order-product-remark-title">备注</span>
+										<textarea class="order-product-remark-input" placeholder="备注..." maxlength="45"></textarea>
+									</div>
+								</div>
+								<input type="hidden" value="{$a}" />
+								<div class="order-product-total">合计：<span class="order-product-price red">{$mar}</span></div>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+            </div>
+			
+            <div class="mzcontainer order-discount" id="discount">
+                <div class="order-discount-header">使用优惠抵扣</div>
+                <ul class="order-discount-list" id="discountList">
+					<li class="order-discount-item" id="a">
+						<div class="order-discount-item-header" id="cc">
+							<div class="order-discount-item-title" id="c">使用回购券</div>
+						</div>
+						
+						<div class="order-discount-item-content order-discount-repo" id="b">
+							<div class="order-discout-repo-text">已选择<span class="order-discount-repo-selected-num" id="nu">0</span>张回购券（不可多张叠加使用），总抵现<span class="order-discount-repo-selected-price" id="money">0.00</span>
+							</div>
+							<ul class="order-discount-repo-list"></ul>
+							<p><span class="order-discount-repo-enter-title">输入回购券</span></p>
+							<div class="order-discount-repo-enter-content" style="display:block">
+								<div class="order-discount-repo-enter-row">券号：<input type="text" class="order-discount-repo-enter-input" id="text"><button class="mz-btn success" onclick="buyback()">确定</button><span class="order-discount-repo-tips"></span></div>
+								<ul class="order-discount-repo-list"></ul>
+							</div>
+						</div>
+						<div class="order-discount-item-header" id="dd">
+								<div class="order-discount-item-title" id="d">使用优惠券</div>
+						</div>
+						<div class="order-discount-item-content order-discount-repo" id="e">
+							<p><span class="order-discount-repo-enter-title">选择优惠券面值</span></p>
+							<div>
+								<select name="discount" id="discount">
+									<option value="">--请选择您的优惠券--</option>
+									{$discount}
+								</select>
+							</div>
+						</div>
+					</li>
+				</ul>
+            </div>
+
+            <div class="order-total clearfix">
+                <div class="order-total-content">
+                    <div class="order-total-row">
+                        总金额
+                        <div class="order-total-price" id="totalOrderPrice">{$mar}</div>
+                    </div>
+                    <div class="order-total-row order-total-discount" id="totalCouponRow">
+                        优惠券优惠
+                        <div class="order-total-price sub" id="totalCoupon">0.00</div>
+                    </div>
+                    <div class="order-total-row order-total-discount" id="totalRepoRow">
+                        回购券抵扣
+                        <div class="order-total-price sub" id="totalRepoRow-money">0.00</div>
+                    </div>
+                    <div class="order-total-row">
+                        运费
+                        <div class="order-total-price" id="totalExpressPrice">0.00</div>
+                    </div>
+                    <div class="order-total-line"></div>
+                    <div class="order-total-row">
+                        应付：
+                        <div class="order-total-price total" id="totalPayPrice">{$mar}</div>
+                    </div>
+                    <div class="order-total-row order-total-valid-row clearfix">
+                        <a class="mz-btn success" id="submitForm" href="{:U('Home/Confimorder/car',array('total'=>$mar))}">提交订单</a>
+                    </div>
+                    <div class="order-total-row order-total-row-tips" id="totalTips"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+<!-- end content -->
+<include file="Public/footer"/>
+<script src="__PUBLIC__/Home/js/layout-208548c914.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Home/js/add-be779856e3.js" type="text/javascript"></script><div class="mz-captcha-open" tabindex="10" hidefocus="true" style="display: none;"><div class="mz-captcha-open-top"><div class="mz-captcha-tips">请按顺序点击大图中的文字</div><div class="mz-captcha-read"></div></div><div class="mz-captcha-open-center"><div class="mz-captcha-click-img"></div><div class="mz-captcha-click-box"></div></div><div class="mz-captcha-open-bottom"><div class="mz-captcha-reload"></div><div class="mz-btn success">验证</div></div></div>
+<script>
+    var __mzt = __mzt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "__PUBLIC__/Home/js/analytics-min.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+	function buyback(){
+	
+	
+	
+	
+	
+		code=$('#text').val();
+		$.get('{:U("Home/Back/sel")}',{'code':code},function(result){
+			//alert(result);
+			a=result.split(",");
+			//alert(a[0]);
+			if(a[0]){
+				$('#nu').html('1');
+				$('#money').html(a[0]);
+				$('#totalRepoRow').attr('style','display:block').children().html(a[0]);
+				var money=$('#totalOrderPrice').html()-$('#totalRepoRow-money').html();
+				if(money<0){
+					money=0;
+				}
+				$('#totalPayPrice').html(money);
+				$('#submitForm').attr('href',"{:U('Home/Confimorder/car')}?buyback="+a[1]+"&total="+money);
+			}else{
+				alert('您的回购劵号不正确');
+			}
+		});
+	}
+	
+	$('#c').toggle(
+		function(){
+			$('#b').attr('style','display:block');
+			$('#dd').attr('style','display:none');
+			
+		},
+		function(){
+			$('#b').attr('style','display:none');
+			$('#dd').attr('style','display:block');
+			//不选择的时候价钱恢复
+			$('#totalPayPrice').html($('#totalOrderPrice').html());
+			$('#totalRepoRow').attr('style','display:none');
+		}
+	);
+	$('#d').toggle(
+		function(){
+			$('#e').attr('style','display:block');
+			$('#cc').attr('style','display:none');
+			//$('#c').attr('disabled','111')	;
+			//$('#c').attr('style',"visibility:hidden');
+			$('#discount').change(function(){
+	//alert($('#discount option:selected').val());
+			if($('#discount option:selected').val()!=""){
+				//alert($('#discount option:selected').html());
+				$('#totalCouponRow').attr('style','display:block');
+				$('#totalCoupon').html($('#discount option:selected').html());
+				var money=$('#totalOrderPrice').html()-$('#discount option:selected').html();
+					if(money<0){
+						money=0;
+					}
+					$('#totalPayPrice').html(money);
+				$('#submitForm').attr('href',"{:U('Home/Confimorder/car')}?discount="+$('#discount option:selected').attr('aa')+"&total="+money);
+			}else{
+				$('#totalCouponRow').attr('style','display:none');
+				$('#totalPayPrice').html($('#totalOrderPrice').html());
+			}
+	})
+	},
+		function(){
+			$('#e').attr('style','display:none');
+			$('#cc').attr('style','display:block');
+			//不选择的时候价钱恢复
+			$('#totalCouponRow').attr('style','display:none');
+			$('#totalPayPrice').html($('#totalOrderPrice').html());
+		}
+	);	
+	
+</script>
+

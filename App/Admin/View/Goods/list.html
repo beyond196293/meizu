@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<title></title>
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/pintuer.css">
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/admin.css">
+<script src="__PUBLIC__/Admin/js/jquery.js"></script>
+<script src="__PUBLIC__/Admin/js/pintuer.js"></script>
+</head>
+<body>
+<form method="get" action="{:U('Admin/Goods/index')}" id="listform">
+  <div class="panel admin-panel">
+    <div class="panel-head"><strong class="icon-reorder"> 商品列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
+    <div class="padding border-bottom">
+      <ul class="search" style="padding-left:10px;">
+        <li> <a class="button border-main icon-plus-square-o" href="{:U('Admin/Goods/add')}"> 添加商品</a> </li>
+        <li>搜索：</li>
+        
+        
+        <li>
+          <input type="text" placeholder="请输入商品名" name="name" class="input" style="width:250px; line-height:17px;display:inline-block" value="{$Think.get.name}"/>
+          <button class="button bg-main icon-check-square-o" type="submit">搜索</button>
+        </li>
+      </ul>
+    </div>
+    <table class="table table-hover text-center">
+      <tr>
+        <th width="5%" style="text-align:left; padding-left:20px;">选择</th>
+        
+        <th>图片</th>
+		<th width="8%">名称</th>
+        <th>描述</th>
+        <th width="5%">价格</th>
+        <th width="5%">库存</th>
+        <th width="8%">是否上架</th>
+        <th width="8%">分类名称</th>
+        <th width="8%">是否新品</th>
+        <th width="8%">是否热销</th>
+        <th width="270">操作</th>
+      </tr>
+      <volist name="list" id="vo">
+    <foreach name="goodslist" item="val">
+        <tr>
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="id[]" value="{$val.gid}" /></td>
+          <td width="10%"><img src="__PUBLIC__/Uploads/{$val.iname}" alt="" width="70" height="50" /></td>
+		  <td>{$val.name}</td>
+          <td>{$val.describe}</td>
+          <td>￥{$val.price}</td>
+          <td>{$val.stoke}</td>
+          <td><a id="status{$val.gid}" onclick="test({$val.gid},'status')" href="javascript:;">{$val.status}</a></td>
+          <td>{$val.cname}</td>
+          <td><a id="is_new{$val.gid}" onclick="test({$val.gid},'is_new')" href="javascript:;">{$val.is_new}</a></td>
+          <td><a id="is_hot{$val.gid}" onclick="test({$val.gid},'is_hot')" href="javascript:;">{$val.is_hot}</a></td>
+          <td><div class="button-group"><a class="button border-main" href="{:U('Admin/Goods/edit',array('gid'=>$val['gid']))}"><span class="icon-edit"></span> 修改</a>
+		  <a class="button border-main" href="{:U('Admin/Image/index',array('gid'=>$val['gid']))}"><span class="icon-edit"></span>图片管理</a>
+		  <a class="button border-red" href="javascript:;" onclick="del({$val.gid})" id="dell{$val.gid}"><span class="icon-trash-o"></span> 删除</a></div></td>
+        </tr>
+   	</foreach>
+      <tr>
+        <td style="text-align:left; padding:19px 0;padding-left:20px;"><input type="checkbox" id="checkall"/>
+          全选 </td>
+        <td colspan="7" style="text-align:left;padding-left:20px;"><a href="javascript:void(0)" class="button border-red icon-trash-o" style="padding:5px 15px;" onclick="DelSelect()"> 删除</a>
+         
+          
+          </td>
+      </tr>
+      <tr>
+        <td colspan="8"><div class="pagelist">{$pageButton}</div></td>
+      </tr>
+    </table>
+  </div>
+</form>
+<script type="text/javascript">
+
+//搜索
+function changesearch(){	
+		
+}
+
+//单个删除
+function del(id){
+	if(confirm("您确定要删除吗?")){
+		$.get("{:U('Admin/Goods/del')}",{'id':id},function(result){
+			if(result){
+			$("#dell"+id).parents().eq(2).remove();
+			}
+		});
+	}else{
+		return false;
+	}
+}
+
+//全选
+$("#checkall").click(function(){ 
+  $("input[name='id[]']").each(function(){
+	  if (this.checked) {
+		  this.checked = false;
+	  }
+	  else {
+		  this.checked = true;
+	  }
+  });
+})
+
+//批量删除
+function DelSelect(){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){
+		var t=confirm("您确认要删除选中的内容吗？");
+		if (t==false){
+			return false;
+		}else{
+			$("input[name='id[]']:checked").each(function(){
+				var id=$(this).val();
+				$.get("{:U('Admin/Goods/del')}",{'id':id},function(result){
+					$("input[value="+id+"]").parent().parent().remove().empty();
+				})
+			})
+		}
+				
+	}
+	else{
+		alert("请选择您要删除的内容!");
+		return false;
+	}
+}
+
+function test(id,aa){
+    $.get("{:U('Admin/Goods/show')}",{'id':id,'aa':aa},function(result){  
+    //console.log(result);
+    $('#'+aa+id).html(result);
+	},'json');
+}
+</script>
+</body>
+</html>

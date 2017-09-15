@@ -1,0 +1,157 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<title></title>
+<link rel="stylesheet" href="/obj/Public/Admin/css/pintuer.css">
+<link rel="stylesheet" href="/obj/Public/Admin/css/admin.css">
+<script src="/obj/Public/Admin/js/jquery.js"></script>
+<script src="/obj/Public/Admin/js/pintuer.js"></script>
+</head>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>增加内容</strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="<?php echo U('Goods/insert');?>"  enctype="multipart/form-data">  
+      <div class="form-group">
+        <div class="label">
+          <label>商品名称：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="name" data-validate="required:请输入商品名称"/>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>分类：</label>
+        </div>
+        <div class="field">
+            <?php echo ($cateSelect); ?>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>价格：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="price" data-validate="required:,number:价格必须为数字"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>库存：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="stoke" data-validate="required:,number:库存必须为数字"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>颜色：</label>
+        </div>
+        <div class="field">
+          <input type="checkbox" name="color[]" value="土豪金" checked>土豪金
+          <input type="checkbox" name="color[]" value="月光银">月光银
+          <input type="checkbox" name="color[]" value="典雅黑">典雅黑
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>商品状态</label>
+        </div>
+        <div class="field">
+            <input type="radio" name="status" value='1' checked/>上架
+            <input type="radio" name="status" value="0" />下架
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>是否热销</label>
+        </div>
+        <div class="field">
+            <input type="radio" name="is_hot" value="1" checked/>是
+            <input type="radio" name="is_hot" value="0"/>否
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>是否新品</label>
+        </div>
+        <div class="field">
+            <input type="radio" name="is_new" value="1" checked/>是
+            <input type="radio" name="is_new" value="0"/>否
+        </div>
+      </div>
+      <div class="form-group hidd" >
+        <div class="label">
+          <label>网络类型</label>
+        </div>
+        <div class="field">
+          <input type="checkbox" name="net[]" value="全网通">全网通
+          <input type="checkbox" name="net[]" value="移动版">移动版
+          <input type="checkbox" name="net[]" value="联通版">联通版
+        </div>
+      </div>
+      <div class="form-group hidd">
+        <div class="label">
+          <label>内存</label>
+        </div>
+        <div class="field">
+          <input type="checkbox" name="memory[]" value="16G">16G
+          <input type="checkbox" name="memory[]" value="32G">32G
+          <input type="checkbox" name="memory[]" value="64G">64G
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>图片：</label>
+        </div>
+       <div class="field">
+          <!-- <input type="file" id="url1" name="img" class="input tips" style="width:25%; float:left;"  value=""  data-toggle="hover" data-place="right" data-image="" /> -->
+          <input type="file" class="button bg-blue margin-left" class="input tips" name="img" value="+ 浏览上传"  style="float:left;" data-validate="required:请选择图片">
+          <div class="tipss">图片尺寸：500*500</div>
+        </div>
+      </div>     
+      
+      <div class="clear"></div>
+      <div class="form-group">
+        <div class="label">
+          <label>描述：</label>
+        </div>
+        <div class="field">
+          <textarea class="input w50" name="describe" style=" height:90px;" data-validate="required:请输入商品描述"></textarea>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+<script>
+function check(obj){
+    var cate=obj.value;
+    $.get("<?php echo U('Admin/Goods/hidd');?>",{'cate':cate},function(result){
+		//alert(result);
+		if(!result){
+		    $(".hidd").attr('style','display:none').css('disabled','true');
+		}else{
+		    $(".hidd").attr('style','display:block');
+		}
+    },'json');
+}
+
+</script>
+</html>

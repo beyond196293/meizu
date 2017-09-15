@@ -1,0 +1,54 @@
+<include file="Public/header"/>
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/layout-ea436a570a.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css" media="screen" />    
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/bootstrap-theme.min.css" />
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/bootstrap.css" />
+	<script type="text/javascript" src="__PUBLIC__/Home/js/bootstrap.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Home/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.min.js"></script><link rel="stylesheet" href="__PUBLIC__/Home/css/site-base.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/aio.css">
+<div class="store-wrap">
+    <div class="crumbs">
+        <a href="http://store.meizu.com/">首页&gt;</a>
+        <a href="http://me.meizu.com/member/index">我的商城&gt;</a>
+        <a href="http://me.meizu.com/member/favorite/index" class="active">我的收藏</a>
+    </div>
+    <div class="main clearfix">
+    <include file="Public/nav"/>
+        <div class="right-content f-fr">
+            
+            <div class="collect-main">
+                <div class="type-tab-btn">
+                    <a href="javascript:;" class="active allOrder">已收藏商品</a>
+                </div>
+                <div id="tableList" class="type-contain clearfix ui-load-container">
+                <div class="ui-load-content">
+                <div class="clearfix">
+                <foreach name="info" item="val">
+                <div style="z-index: 18;" class="item j-hover-item f-fl">
+                <!--<i class="icon-del j-icon-del"></i>-->
+                <a id="del{$key}" onclick="del({$key})"><img class="icon-del j-icon-del" src="__PUBLIC__/Home/images/del.png"></a>
+                <a href="{:U('Home/Details/index?id='.$val['id'])}" target="_blank">
+                    <img src='__PUBLIC__/Uploads/{$val.savepath}' alt="魅族 MX5e 经典版">
+                </a>
+                <a href="http://detail.meizu.com/item/meizu_mx5e.html" target="_blank">
+                    <h3>{$val.name}</h3>
+                </a>
+                </div>   
+                </foreach>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function del(a){
+    $.get("{:U('Home/Collect/del')}",{'id':a},function(result){
+    //alert(a);
+    $("#del"+a).parent().empty().remove();
+},'json');
+}
+</script>
+<include file="Public/footer"/>

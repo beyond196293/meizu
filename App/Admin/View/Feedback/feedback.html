@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title></title>  
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/admin.css">
+    <script src="__PUBLIC__/Admin/js/jquery.js"></script>
+    <script src="__PUBLIC__/Admin/js/pintuer.js"></script>  
+</head>
+<body>
+  <div class="panel admin-panel">
+    <div class="panel-head"><strong class="icon-reorder"> 评论管理</strong></div>
+    <table class="table table-hover text-center">
+      <tr>   
+        <th width="8%">姓名</th>       
+        <th width="10%">电话</th>
+        <th width="15%">邮箱</th>
+		    <th width="10%">留言时间</th>  
+        <th width="25%">意见</th>
+		    <th width="15%">状态</th>
+           
+      </tr>     
+      <foreach name="list" item="val"> 
+        <tr>
+          <td>{$val.name}</td>
+          <td>{$val.phone}</td> 
+          <td>{$val.email}</td>
+		      <td>{$val.time}</td>		   
+          <td>{$val.opinion}</td>
+          <td><input type="button" id="qwe{$val.id}" class="button border-main" data-mtype="store_de_buy" onclick="addcar('{$val.id}')" value="{$val.solve}"/>  <input type="button" id="del{$val.id}" class="button border-red" data-mtype="store_de_buy" onclick="tes('{$val.id}')" value="删除"/></td>
+        </tr>
+      <script type="text/javascript">
+
+      </script>
+      </foreach>
+      <tr>
+        <td colspan="8">
+        <div class="pagelist"> 
+          {$page}
+        </div></td>
+      </tr>
+    </table>
+  </div>
+<script type="text/javascript">
+  function del(id){
+  	if(confirm("您确定要删除吗?")){
+  		
+  	}
+  }
+  function addcar(id){
+      $.get("{:U('Admin/Feedback/feed')}",{'id':id},function(result){
+        //alert(1);
+      $("#qwe"+id).attr('value',result);
+  },'json');
+  }
+  function tes(id){
+        $.get("{:U('Admin/Feedback/del')}",{'id':id},function(result){
+          $("#del"+id).parent().parent().remove();
+        },'json');
+      }
+</script>
+</body></html>
